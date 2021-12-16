@@ -9,11 +9,12 @@
     <title>Movies</title>
   </head>
   <body>
-    <section>
-      <div class="container pb-5">
+    <section class="pt-2 pb-5">
+      <div class="container">
         <h1 class="text-center fs-2 mb-4">Movies catalog</h1>
         <div class="row">
           <div class="col-4">
+            <!-- FORMS -->
             <form>
               <div class="mb-3">
                 <input
@@ -56,6 +57,7 @@
                 Search
               </button>
             </form>
+            <!-- LIST GROUP -->
             <div class="mt-4">
               <h2>Bookmarked movies</h2>
               <ul class="list-group">
@@ -80,11 +82,13 @@
               </ul>
             </div>
           </div>
+          <!-- RESULT -->
           <div class="result col-8">
             <p class="fw-bold mb-2">Search result: <span>39</span></p>
             <div class="alert alert-success p-2" role="alert">
               Use the form on the left to search for a movie
             </div>
+            <!-- CARDS -->
             <div class="d-flex justify-content-between">
               <div class="card">
                 <img
@@ -233,6 +237,7 @@
                 </div>
               </div>
             </div>
+            <!-- PAGINATION -->
             <nav aria-label="..." class="mt-5">
               <ul class="pagination pagination-md justify-content-center">
                 <li class="page-item active" aria-current="page">
